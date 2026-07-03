@@ -13,7 +13,7 @@ app.use("/api/users", userRoutes);
 app.get("/", (req, res) => {
   res.send("Backend Server Running");
 });
-
+    
 app.get("/favicon.ico", (req, res) => {
   res.status(204).end();
 });
